@@ -1,9 +1,20 @@
 const navbtn = document.querySelector('.btn');
+const navigation = document.querySelector('.navigation');
+const closebtn = document.querySelector('.close');
 function openMenu() {
   navigation.classList.toggle('open');
   }
-  
-  navbtn.addEventListener('click', openMenu);
+
+function closeMenu() {
+  navigation.classList.remove('open');
+}
+navbtn.addEventListener('click', openMenu);
+closebtn.addEventListener('click', closeMenu);
+
+const items = document.querySelectorAll('.nav-list');
+  items.forEach(item =>{
+    item.addEventListener('click',closeMenu)
+  })
   
 const guestsArray = [{
 

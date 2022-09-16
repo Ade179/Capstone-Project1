@@ -8,9 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
-
 @media (max-width:768px) {
 
 
@@ -23,6 +20,7 @@ html {
 
     .container {
         background-color: #4339391f;
+        padding-bottom: 50px;
     }
 
     .navbtn {
@@ -35,15 +33,14 @@ html {
         width: 50px;
         height: 80px;
         font-size: 40px;
-        color: #fff;
+        color: rgb(0, 0, 0, .6);
     }
 
 
     .navigation {
         position: fixed;
         inset: 0;
-        background-color: grey;
-        color: #fff5e1;
+        background-color: rgb(226, 219, 219);
         z-index: 10;
         display: none;
     }
@@ -52,82 +49,93 @@ html {
         display: block;
     }
 
+    .close {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 25px;
+        margin-top: 20px;
+        font-size: 35px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+
     /*hamburgerendshere*/
 
     .nav-items {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        margin-top: 30%;
-        width: 100%;
-        padding-left: 1rem;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 70px;
     }
 
     .nav-list {
-        border-bottom: 1px solid #6f6c6b;
-        width: 94%;
         padding-left: 1rem;
-        margin-right: 10%;
         padding-bottom: 0.5rem;
-        margin-top: 10px;
     }
 
 
     ul,
     li,
     a {
-        left: 0.04%;
-        right: 0.03%;
-        top: 0.02%;
-        bottom: 0%;
-        color: #dbd8d7;
+        inset: 0;
         list-style: none;
-        font-size: 50px;
+        text-decoration: none;
+        font-size: 40px;
+        color: black;
     }
 
     .text {
-        position: relative;
         padding-top: 40%;
         padding-left: 2%;
         color: tomato;
-        font-size: 50px;
+        font-size: 40px;
+        font-weight: lighter;
+        margin: 0 10px 0 10px;
     }
 
     .description {
         position: relative;
-        padding-top: 10%;
         padding-left: 2%;
         color: tomato;
         font-size: 50px;
         font-family: 'lato', sans-serif;
+        margin: 0 10px 0 10px;
+    }
+
+    #texts {
+        margin: 0 10px 0 10px;
     }
 
     .texts {
         margin-top: 20%;
         padding-top: 5%;
         padding-left: 2%;
-        font-size: 40px;
+        font-size: 20px;
         font-family: 'lato', sans-serif;
         width: auto;
         border: 1px solid white;
     }
 
     #date {
-        margin-top: 10%;
         padding-left: 2%;
+        margin: 10% 10px 0 10px;
     }
 
     .date {
         color: #353935;
-        font-size: 50px;
+        font-size: 25px;
         font-family: 'lato', sans-serif;
     }
 
     .location {
         color: #353935;
-        font-size: 50px;
+        font-size: 18px;
         font-family: 'lato', sans-serif;
-        margin-top: 10%;
+        margin: 0 10px 0 10px;
     }
 
 
@@ -377,7 +385,8 @@ html {
     #about-texts {
         background-color: #fff;
         padding: 1%;
-        font-size: 25px;
+        font-size: 19px;
+        text-align: center;
         font-family: 'lato', sans-serif;
         width: 90%
     }
@@ -430,10 +439,10 @@ html {
 
     #AALA-text {
         font-family: 'lato', sans-serif;
-        font-size: 25px;
+        font-size: 22px;
         color: #686968;
-        display: flex;
-        justify-content: center;
+        text-align: center;
+        margin: 0 20px 0 20px;
     }
 
     .desktopheader {
@@ -962,7 +971,8 @@ html {
     }
 
     #contact {
-        font-size: 20px;
+        font-size: 24px;
+        padding-bottom: 50px;
         font-family: 'lato', sans-serif;
     }
 
@@ -1123,6 +1133,10 @@ html {
         padding: 1%;
         color: #fcfcfc1f;
         font-size: 30px;
+    }
+
+    .btn {
+        display: none;
     }
 
 }
