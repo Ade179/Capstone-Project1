@@ -3,7 +3,7 @@ const navigation = document.querySelector('.navigation');
 const closebtn = document.querySelector('.close');
 function openMenu() {
   navigation.classList.toggle('open');
-  }
+}
 
 function closeMenu() {
   navigation.classList.remove('open');
@@ -12,10 +12,10 @@ navbtn.addEventListener('click', openMenu);
 closebtn.addEventListener('click', closeMenu);
 
 const items = document.querySelectorAll('.nav-list');
-  items.forEach(item =>{
-    item.addEventListener('click',closeMenu)
-  })
-  
+items.forEach((item) => {
+  item.addEventListener('click', closeMenu);
+});
+
 const guestsArray = [{
 
   id: 'guest0',
