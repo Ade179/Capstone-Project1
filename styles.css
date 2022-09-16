@@ -95,7 +95,7 @@ html {
     position: relative;
     padding-left: 2%;
     color: tomato;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'lato', sans-serif;
     margin: 0 10px 0 10px;
   }
@@ -188,6 +188,10 @@ html {
     font-size: 15px;
   }
 
+  .wholepage {
+    display: none;
+  }
+
   /* sec3 */
 
   .sec3 {
@@ -212,7 +216,7 @@ html {
 
   .Soyinka {
     display: flex;
-    width: 100px;
+    width: 130px;
     height: auto;
     padding-left: 2%;
   }
@@ -228,17 +232,17 @@ html {
   }
 
   #soyinka {
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .WS {
     color: tomato;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     border-bottom: 1px solid grey;
   }
 
   .aboutWS {
-    font-size: 17px;
+    font-size: 10px;
     font-family: 'lato', sans-serif;
   }
 
@@ -270,7 +274,7 @@ html {
   }
 
   .aboutKA {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   /* sec4 */
@@ -521,7 +525,7 @@ html {
   .boufootertext {
     border: 7px solid #fff;
     padding: 1%;
-    color: #fcfcfc1f;
+    color: #fff;
     font-size: 30px;
   }
 }
@@ -660,43 +664,46 @@ html {
   #container {
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
-    padding-top: 200px;
-    gap: 70px;
+    padding-left: 100px;
+    padding-top: 100px;
+    gap: 18px;
+    padding-bottom: 30px;
   }
 
   .txt {
     color: #ec5242;
-    font-size: 50px;
+    font-size: 22px;
     font-family: 'Lato', sans-serif;
     text-align: left;
   }
 
   .description {
     color: #ec5242;
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'Lato', sans-serif;
     text-align: left;
-    width: 50%;
+    width: 70%;
   }
 
   #texts {
-    font-size: 30px;
-    border: 10px solid #fff;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border: 4px solid #fff;
     width: 50%;
     padding: 1%;
   }
 
   .date {
-    font-size: 50px;
+    font-size: 25px;
     font-weight: bold;
     color: #272a31;
+    font-family: 'Lato', sans-serif;
   }
 
   .location {
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 25px;
     color: #272a31;
+    font-family: 'Lato', sans-serif;
   }
 
   /* sec2desaktop */
@@ -738,7 +745,13 @@ html {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .cont:hover {
+    border: 1px solid #fff;
   }
 
   .programmecontainer {
@@ -755,11 +768,41 @@ html {
     color: #fff;
   }
 
+  .wholepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+    text-decoration: underline;
+  }
+
+  #wholepage {
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  /* featuresection */
+
+  .features {
+    margin-bottom: 5px;
+  }
+
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+
   .featuredspeakers {
     text-align: center;
     justify-content: center;
-    padding-top: 10%;
-    font-size: 3rem;
+    padding-top: 4%;
+    font-size: 1.6rem;
+    font-family: 'lato', sans-serif;
+    padding-bottom: 3%;
   }
 
   .featuredspeakers::after {
@@ -773,43 +816,47 @@ html {
 
   .Soyinka {
     display: flex;
-    width: 220px;
-    height: auto;
-    padding-left: 2%;
+    width: 100px;
   }
 
   .evilJesus {
-    padding: 5%;
     display: flex;
-    gap: 25px;
+    gap: 9px;
+    width: 300px;
   }
 
   .ForWS {
     padding-top: 5%;
+    width: 100px;
   }
 
   #soyinka {
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .WS {
-    color: #ec5242;
+    color: tomato;
     padding-bottom: 5%;
+    font-size: 13px;
+  }
+
+  .WS::after {
+    content: '';
     border-bottom: 1px solid grey;
+    width: 200px;
+    display: block;
   }
 
   .aboutWS {
-    font-size: 17px;
+    font-size: 10px;
     font-family: 'lato', sans-serif;
   }
 
   .guestscontainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .sec3 {
-    padding-bottom: 5%;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    padding-top: 22px;
   }
 
   .sec4 {
@@ -986,6 +1033,10 @@ html {
     align-items: center;
   }
 
+  .aboutimg2:hover {
+    border: 1px solid grey;
+  }
+
   .imgtxt {
     text-align: center;
   }
@@ -1010,6 +1061,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .aboutimg1:hover {
+    border: 1px solid white;
   }
 
   .timewarped {
@@ -1046,7 +1101,7 @@ html {
   .boufootertext {
     border: 7px solid #fff;
     padding: 1%;
-    color: #fcfcfc1f;
+    color: #fff;
     font-size: 30px;
   }
 

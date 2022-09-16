@@ -37,7 +37,7 @@ const guestsArray = [{
   id: 'guest2',
   title: 'Richard Bona ',
   description: 'Bass player originally from Cameroon, CE0, Richard Bona tours',
-  About: ' In 1998, Bona was the Musical Director on Harry Belafontes European Tour, His debut solo album, Scenes from My Life, was released in 1999 He has also been prominently featured in Jaco Pastorius Big Band albums  as well as many other albums by various top-tier jazz musicians',
+  About: ' In 1998, Bona was the Musical Director on Harry Belafontes European Tour, His debut solo album, Scenes from My Life, was released in 1999 ',
   image: './images/bona.jpg',
 },
 
@@ -45,8 +45,23 @@ const guestsArray = [{
   id: 'guest3',
   title: 'Cory Henry ',
   description: 'Cory Henry is an American singer-songwriter, pianist, organist, and record producer',
-  About: ' His musical touring began in 2006,  and he has since toured with many mainstream artists, including Bruce Springsteen, Michael McDonald, P. Diddy, Boyz II Men, Kenny Garrett, and The Roots, and gospel artists, among them Israel Houghton, Donnie McClurkin, Kirk Franklin, and Yolanda Adams.',
+  About: ' His musical touring began in 2006,  and he has since toured with many mainstream artists, including Bruce Springsteen, too.',
   image: './images/Cory.png',
+},
+
+{
+  id: 'guest4',
+  title: 'Darmian Ortega',
+  description: 'Damián Ortega,1967 is a Mexican artist . He is known for his installations as Cosmic Thing , as well as his photography and film works',
+  About: 'Damián Ortega was born into a family of intellectuals and artists. His mother is a teacher in a primary school and his father is an actor in the university theater.',
+  image: './images/DamianOrtega.webp',
+},
+{
+  id: 'guest5',
+  title: 'Lynda Benglis',
+  description: 'In 1974, Lynda Benglis created one of the iconic works of recent art history, Centrefold',
+  About: 'Benglis has explained the work as a study of the objectification of the self, and it has been seen as an example of gender performativity, and as a cutting parody of the male dominated art world.',
+  image: './images/lynds.jpg',
 },
 
 ];
@@ -57,7 +72,7 @@ const speaker = document.createElement('div');
 speaker.classList.add('features');
 const h2 = document.createElement('h2');
 h2.classList.add('featuredspeakers');
-h2.textContent = 'Featuring';
+h2.textContent = 'Featured Speakers';
 speaker.appendChild(h2);
 section3.appendChild(speaker);
 
