@@ -38,7 +38,7 @@ const guestsArray = [{
   title: 'Richard Bona ',
   description: 'Bass player originally from Cameroon, CE0, Richard Bona tours',
   About: ' In 1998, Bona was the Musical Director on Harry Belafontes European Tour, His debut solo album, Scenes from My Life, was released in 1999 He has also been prominently featured in Jaco Pastorius Big Band albums  as well as many other albums by various top-tier jazz musicians',
-  image: './images/Bona.jpg',
+  image: './images/bona.jpg',
 },
 
 {
