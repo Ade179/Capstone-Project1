@@ -13,6 +13,7 @@
 
 
 ### Go live : https://ade179.github.io/Capstone-Project1/
+### DEMO : https://www.loom.com/share/0359a99827134a869bc8683203c4f0cd
 
 ## Authors
 
