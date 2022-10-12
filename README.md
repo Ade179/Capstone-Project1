@@ -2,7 +2,7 @@
 
 # Capstone Project
 
-> This project helps the mastery of Linters, flexbox, html, css,and javascript
+> This project helps the mastery of Linters, FlexBox, HTML, CSS, and JavaScript. It is a landing page that advertises a lecture on Arts and Entertainment
 
 
 ## Built With
